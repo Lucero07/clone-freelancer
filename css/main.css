@@ -1,3 +1,95 @@
 /*
  * Estilos de tu proyecto
  */
+ body{
+   margin: 0;
+   padding: 0;
+ }
+ h1,hr,h3{
+
+   margin: 0;
+ }
+ h1{
+     font-size: 3rem;
+
+ }
+ h3{
+   font-size: 1.5rem;
+
+ }
+ h4{
+   font-size: 1rem;
+   padding: 1%;
+ }
+ img{
+   margin: 2%;
+   width: 95%;
+   height: auto;
+ }
+ p{
+   margin: 1% 3%;
+   font-size: 1rem;
+ }
+ .contenedor {
+   width: 100%;
+   /*max-width: 1200px;*/
+   margin: 0px;
+ }
+ .contenedorChico {
+   width: 90%;
+   margin-left: 5%;
+   margin-right: 5%;
+ }
+
+ .fila:before, .fila:after{
+   content: " ";
+   display: table;
+ }
+ .fila:after{
+   clear: both;
+ }
+ [class*="columna-"]{
+   min-height: 1%;
+   padding: 1%;
+   float: left;
+ }
+ .columna-1{
+   width: 8.33333%;
+ }
+ .columna-2{
+   width: 16.66667%;
+ }
+ .columna-3{
+   width: 25%;
+ }
+ .columna-4{
+   width: 33.33333%;
+ }
+ .columna-5{
+   width: 41.66666%;
+ }
+ .columna-6{
+   width: 50%;
+ }
+ .columna-7{
+   width: 58.333336%;
+ }
+ .columna-8{
+   width: 66.66666%;
+ }
+ .columna-9{
+   width: 75%;
+ }
+ .columna-10{
+   width: 83.33334%;
+ }
+ .columna-11{
+   width: 91.66666%;
+ }
+ .columna-12{
+   width: 100%;
+}
+
+.fila{
+  widows: 100%;
+}

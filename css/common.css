@@ -1,3 +1,46 @@
 /*
  * Estilos reutilizables
  */
+ .fija{
+   position: fixed;
+   background-color: rgb(44, 62, 80);
+   width: 100%;
+   font-size: 1.5rem;
+   line-height: 2;
+ }
+ .blanco{
+   color: #fff;
+ }
+ .botones{
+  line-height: 3;
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
+}
+.botones:hover{
+  color: rgb(24, 188, 156);
+}
+.seccion1{
+  background-color: rgb(24, 188, 156);
+}
+.perfil{
+  margin-top: 10%;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+.centrar{
+text-align: center;
+
+}
+.subtitulo{
+  margin-bottom: 5%;
+}
+.imagenes1{
+  padding:0 !important;
+}
+.vinculo{
+  color: rgb(44, 62, 80);
+}
+.cambio{
+  margin-bottom: 10%;
+}
